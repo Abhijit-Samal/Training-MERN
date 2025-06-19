@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+        <div class="nav_container">
+            <div>
+                <img src="Logo.png" alt="" width="100">
+            </div>
+            <ul class="nav_items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destination</a></li>
+                <li><a href="#">Bookings</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="region">
+        <form>
+            <label for="Region">Choose Your Region</label>
+            <select name="Region" id="Region">
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="America">America</option>
+            </select>
+        </form>
+    </div>
+
+
+    <center>
+      <section class="destination-list">
+        <article class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.HGTJnB7gG7sOOOdB9SYcUwHaE8?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"
+            alt="beach"
+            width="100"
+            height="100"
+          />
+          <h2>Beach</h2>
+          <p>$200/person</p>
+        </article>
+        <article class="card">
+          <img
+            src="https://th.bing.com/th/id/OIP.596FlpS538G0SruemwdmBAHaE6?rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3"
+            alt="mountain"
+            width="100"
+            height="100"
+          />
+          <h2>Mountains</h2>
+          <p>$350/person</p>
+        </article>
+      </section>
+    </center>
+      <section class="booking-form">
+        <center>
+        <h2>Enter Details to Book Your Trip</h2>
+        <br>
+        </center>
+        <form class="form">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="John Doe"
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="Email"
+            placeholder="xyz@gmail.com"
+            required
+          />
+          <label for="date">Date:</label>
+          <input
+            type="date"
+            name=""
+            id="date"
+            required
+          />
+          <center>
+          <button type="submit">Book Now</button>
+          </center>
+        </form>
+      </section>
+    <footer>
+      <center>
+        <p>&copy; 2025 Travel Dashboard. All rights Reserved.</p>
+        <br>
+      </center>
+    </footer>
+  </body>
+</html>
