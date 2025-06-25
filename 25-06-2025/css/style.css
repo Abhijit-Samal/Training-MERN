@@ -1,0 +1,59 @@
+body{
+    background-color: #fff;
+    margin: 50px;
+    background-image: url('https://t3.ftcdn.net/jpg/05/13/59/72/360_F_513597277_YYqrogAmgRR9ohwTUnOM784zS9eYUcSk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1  {
+    color: #3a3838;
+}
+#InputTask{
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#addTaskBtn{
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+#addTaskBtn:hover{
+    background-color: #147e2d;
+}
+#Tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    list-style: none;
+    text-align: start;
+    padding: 0;
+}
+li{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+    background-color: lightgray;
+    border: 1px solid rgb(190, 185, 185);
+}
+.deleteBtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(200, 0, 0);
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
