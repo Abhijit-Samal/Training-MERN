@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <style>
+        .zoom{
+            width: 200px;
+            height: 200px;
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+<body>
+    
+    <img src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg" class="zoom" alt="zoom">
+    <script>
+        $(document).ready(function() {
+            $(".zoom").hover(function(){
+                $(this).css("transform", "scale(1.2)")
+            },
+            function(){
+                $(this).css("transform", "scale(1)")
+            },
+        )
+        })
+    </script>
+</body>
+</html>
