@@ -19,7 +19,9 @@ header{
 }
 .container{
     width: 80%;
-    height: 5rem;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -71,10 +73,12 @@ a:hover{
     margin: auto;
 }
 .top_courses{
+    text-align: center;
     font-size:xx-large;
 }
 .courses{
     display: flex;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
 }
@@ -262,7 +266,7 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-    .nav-links{
+    .nav_links{
         flex-direction: column;
         gap: 10px;
         align-items: center;
